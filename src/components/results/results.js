@@ -1,6 +1,10 @@
 import React from "react";
 import ReactJson from "react-json-view";
-
+/**
+ * @function  Results
+ * @param  {} props
+ * @returns header and response json
+ */
 function Results(props) {
   return (
     <div id="json">

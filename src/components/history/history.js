@@ -1,5 +1,9 @@
 import React from "react";
 
+/**
+ * @class History Component
+ * Renders history component of the recent url searches
+ */
 function History(props) {
   return (
     <div className="history">

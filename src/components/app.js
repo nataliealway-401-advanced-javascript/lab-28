@@ -11,6 +11,10 @@ import BearerAuth from "./authorization/bearer/bearer.js";
 
 import "./app/app.scss";
 
+/**
+ * @class App
+ * @description Holds state properties. Renders all elements being imported.
+ */
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -23,7 +27,11 @@ class App extends React.Component {
       isTextboxDisable: false
     };
   }
-
+  /**
+   * @function handleMethods
+   * @param  {} event
+   * @description event listener that handles the methods selected from the form.
+   */
   handleMethods = e => {
     let property = e.target.name;
     let value = e.target.value;
@@ -35,6 +43,11 @@ class App extends React.Component {
     this.setState({ [property]: value });
   };
 
+  /**
+   * @function callApi
+   * @param {object} event
+   * @description Makes a call to the specific url that was passed in, and parses the response and header object.
+   */
   callApi = e => {
     e.preventDefault();
     let body = this.state.requestbody && JSON.parse(this.state.requestbody);
@@ -47,7 +60,11 @@ class App extends React.Component {
         this.setState({ header, response });
       });
   };
-
+  /**
+   * @function saveHistory
+   * @param  {object} obj
+   * @description Function for saving the recent url search history
+   */
   saveHistory = obj => {
     this.setState((prevState, props) => {
       return { history: prevState.history.concat(obj) };
