@@ -10,11 +10,12 @@
   "dependencies": {
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.2",
+    "eslint": "^6.8.0",
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "react-json-view": "1.19.1",
     "react-router-dom": "5.1.2",
-    "react-scripts": "3.0.1",
+    "react-scripts": "^3.4.0",
     "superagent": "5.2.2"
   },
   "devDependencies": {
@@ -31,5 +32,15 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nataliealway-401-advanced-javascript/restY.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nataliealway-401-advanced-javascript/restY/issues"
+  },
+  "homepage": "https://github.com/nataliealway-401-advanced-javascript/restY#readme"
 }
