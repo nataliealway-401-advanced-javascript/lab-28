@@ -1,0 +1,49 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "React example starter project",
+  "keywords": [
+    "react",
+    "starter"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "enzyme": "3.11.0",
+    "enzyme-adapter-react-16": "1.15.2",
+    "eslint": "^6.8.0",
+    "jsdoc": "^3.6.3",
+    "node-sass": "^4.13.1",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-json-view": "1.19.1",
+    "react-router-dom": "5.1.2",
+    "react-scripts": "^3.4.0",
+    "superagent": "5.2.2"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nataliealway-401-advanced-javascript/restY.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nataliealway-401-advanced-javascript/restY/issues"
+  },
+  "homepage": "https://workingbranch.d108shv7vkbfxg.amplifyapp.com/"
+}
