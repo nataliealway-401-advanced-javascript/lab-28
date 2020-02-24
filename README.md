@@ -6,7 +6,7 @@
 * [submission PR](https://github.com/nataliealway-401-advanced-javascript/restY/pull/2)
 * [Travis](https://www.travis-ci.com/nataliealway-401-advanced-javascript/restY)
 * [jsdocs](https://github.com/nataliealway-401-advanced-javascript/restY/tree/workingBranch/docs)
-* [Code Sandbox](https://codesandbox.io/s/kind-forest-zbtvc)
+* [Code Sandbox](https://codesandbox.io/s/resty-zbtvc)
 * [Deployment](https://workingbranch.d108shv7vkbfxg.amplifyapp.com/)
 
 # Components
